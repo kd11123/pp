@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- awesome icon cdn -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- 파비콘(favicon) 연결 -->
+    <link href="img/favicon.png" type="image/icon" rel="shortcut icon">
+    <!-- fullpage.css 연결 -->
+    <link href="css/jquery.fullpage.css" type="text/css" rel="stylesheet">
+    <!-- swiper css cdn -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <!-- 사용자 정의 css 연결 -->
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <!-- 제이쿼리 라이브러리 연결 -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- fullpage.js 연결 -->
+    <script src="js/jquery.fullpage.js"></script>
+    <!-- js swiper -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- 사용자 정의 js 연결 -->
+    <script src="js/main.js"></script>
+
+    <title>MY's Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html#intro">
+                <img src="img/name.png" alt="로고">
+            </a>
+        </div>
+        <nav>
+            <ul id="myMenu">
+                <li data-menuanchor="intro"><a href="#intro">Intro</a></li>
+                <li data-menuanchor="profile"><a href="#profile">Profile</a></li>
+                <li data-menuanchor="web"><a href="#web">Web</a></li>
+                <li data-menuanchor="edit"><a href="#edit">Editorial</a></li>
+                <li data-menuanchor="contact"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="sns">
+            <ul>
+                <li><a href="#">
+                    <!-- 이미지 또는 아이콘 -->
+                    <i class="fab fa-facebook-f"></i>
+                </a></li>
+                <li><a href="#">
+                    <!-- 이미지 또는 아이콘 -->
+                    <i class="fab fa-instagram"></i>
+                </a></li>
+                <li><a href="#">
+                    <!-- 이미지 또는 아이콘 -->
+                    <i class="fab fa-youtube"></i>
+                </a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <a href="#">
+                <!-- 이미지 또는 아이콘 -->
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+    </header>
+    <div id="fullpage">
+        <section class="section intro">
+            <!-- <div class="intro_img">
+                <img src="img/intro.gif" alt="인트로">
+            </div> -->
+            <div class="intro_txt">
+                <?xml version="1.0" encoding="utf-8"?>
+                <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    width="930px" height="170px" viewBox="0 0 930 170" enable-background="new 0 0 930 170" xml:space="preserve">
+                <g>
+                    <defs>
+                        <path id="p" d="M20.396,140.282V18.944h52.65c13.39,0,24.325,3.888,32.805,11.664c8.477,7.776,12.717,19.387,12.717,34.83
+                            c0,15.337-4.511,27.243-13.527,35.721c-9.019,8.479-20.169,12.718-33.453,12.718H52.31v26.405c0,4.86-1.676,8.64-5.022,11.341
+                            c-3.349,2.697-6.994,4.049-10.935,4.049c-3.944,0-7.589-1.352-10.935-4.049C22.069,148.922,20.396,145.143,20.396,140.282z
+                            M67.862,46.646H52.31v39.689h15.552c5.508,0,10.016-1.782,13.527-5.346c3.508-3.564,5.265-8.748,5.265-15.552
+                            c0-6.48-1.729-11.231-5.184-14.256C78.012,48.16,73.476,46.646,67.862,46.646z"/>
+                    </defs>
+                    <clipPath id="p_1_">
+                        <use xlink:href="#p"  overflow="visible"/>
+                    </clipPath>
+                    <path id="p-path" clip-path="url(#p_1_)" class="intro_ani" fill="none" stroke="#6DAFD5" stroke-width="39" d="M34.439,18.944v141.688
+                        c0,0-2.198-129.058,16.483-129.058s52.748-6.556,52.748,29.878s-12.088,43.64-76.923,43.64"/>
+                </g>
+                <g>
+                    <defs>
+                        <path id="o" d="M223.384,86.012c0,24.194-4.078,42.039-12.231,53.541c-8.156,11.502-20.549,17.254-37.179,17.254
+                            c-16.633,0-29.026-5.752-37.179-17.254c-8.155-11.502-12.231-29.347-12.231-53.541c0-23.758,4.104-41.334,12.312-52.73
+                            c8.207-11.393,20.574-17.091,37.098-17.091s28.889,5.698,37.098,17.091C219.278,44.677,223.384,62.254,223.384,86.012z
+                            M183.37,46.97c-2.486-2.159-5.617-3.24-9.396-3.24c-3.782,0-6.885,1.053-9.315,3.159c-2.43,2.106-4.24,5.293-5.427,9.558
+                            c-1.189,4.268-1.972,8.642-2.349,13.122c-0.38,4.483-0.567,10.019-0.567,16.604c0,6.698,0.188,12.313,0.567,16.849
+                            c0.377,4.536,1.134,8.966,2.268,13.284c1.134,4.32,2.941,7.561,5.427,9.72c2.483,2.161,5.614,3.24,9.396,3.24
+                            c3.779,0,6.885-1.054,9.315-3.159c2.43-2.105,4.237-5.291,5.427-9.559c1.187-4.265,1.969-8.639,2.349-13.121
+                            c0.377-4.48,0.567-10.017,0.567-16.605c0-6.695-0.19-12.312-0.567-16.848c-0.379-4.536-1.134-8.963-2.268-13.284
+                            C187.663,52.372,185.853,49.132,183.37,46.97z"/>
+                    </defs>
+                    <clipPath id="o_1_">
+                        <use xlink:href="#o"  overflow="visible"/>
+                    </clipPath>
+                    <path id="o-path" clip-path="url(#o_1_)" class="intro_ani" fill="none" stroke="#6DAFD5" stroke-width="39" d="M173.974,28.792
+                        c0,0-31.844,0-31.844,50.549s13.138,67.033,31.844,67.033s33.288-18.776,33.288-65.935S183.01,28.792,173.974,28.792z"/>
+                </g>
+                <g>
+                    <defs>
+                        <path id="r" d="M234.722,140.282V18.944h52.974c13.391,0,24.272,3.458,32.644,10.368c8.368,6.913,12.555,17.334,12.555,31.266
+                            c0,13.608-4.645,24.355-13.932,32.238l17.658,39.042c1.835,4.43,2.43,8.368,1.781,11.826c-0.647,3.455-2.323,6.101-5.021,7.938
+                            c-2.701,1.834-5.589,3.021-8.667,3.563c-3.078,0.539-6.156,0.054-9.234-1.458c-3.078-1.514-5.32-3.835-6.723-6.967l-18.792-42.768
+                            c-0.973,0.109-2.431,0.162-4.374,0.162h-18.954v36.126c0,4.86-1.676,8.64-5.022,11.341c-3.349,2.697-6.994,4.049-10.935,4.049
+                            c-3.944,0-7.589-1.352-10.935-4.049C236.395,148.922,234.722,145.143,234.722,140.282z M281.378,46.646h-14.742v29.97h14.742
+                            c5.832,0,10.555-1.268,14.175-3.807c3.617-2.537,5.427-6.614,5.427-12.231c0-5.291-1.757-8.936-5.265-10.935
+                            C292.204,47.646,287.425,46.646,281.378,46.646z"/>
+                    </defs>
+                    <clipPath id="r_1_">
+                        <use xlink:href="#r"  overflow="visible"/>
+                    </clipPath>
+                    <path id="r-path" clip-path="url(#r_1_)" class="intro_ani" fill="none" stroke="#6DAFD5" stroke-width="39" d="M247.624,18.944v142.774
+                        c0,0-8.791-131.207,20.879-132.369c29.67-1.161,50.549,0.174,50.549,33.676c0,33.503-43.142,35.998-63.736,33.676l-15.384-5.225
+                        l63.736,5.225l29.712,62.449"/>
+                </g>
+                <g>
+                    <defs>
+                        <path id="t" d="M342.451,47.618V18.944h101.574v28.674h-33.696v92.664c0,4.86-1.757,8.64-5.265,11.341
+                            c-3.511,2.697-7.346,4.049-11.502,4.049c-4.159,0-7.994-1.352-11.502-4.049c-3.511-2.701-5.266-6.48-5.266-11.341V47.618H342.451z
+                            "/>
+                    </defs>
+                    <clipPath id="t_1_">
+                        <use xlink:href="#t"  overflow="visible"/>
+                    </clipPath>
+                    <path id="t-path" clip-path="url(#t_1_)" class="intro_ani" fill="none" stroke="#6DAFD5" stroke-width="39" d="M342.451,33.187h101.574
+                        c0,0-50.787-4.396-50.787,17.583s0.324,104.902,0.324,104.902"/>
+                </g>
+                <g>
+                    <defs>
+                        <path id="f" d="M455.363,140.282V18.944h88.452V46.97h-55.729v23.976h54.595v27.864h-54.595v41.472c0,4.86-1.7,8.64-5.103,11.341
+                            c-3.402,2.697-7.156,4.049-11.259,4.049c-4.106,0-7.857-1.352-11.26-4.049C457.064,148.922,455.363,145.143,455.363,140.282z"/>
+                    </defs>
+                    <clipPath id="f_1_">
+                        <use xlink:href="#f"  overflow="visible"/>
+                    </clipPath>
+                    <path id="f-path" clip-path="url(#f_1_)" class="intro_ani" fill="none" stroke="#6DAFD5" stroke-width="39" d="M469.6,18.944v141.688
+                        c0,0-2.197-127.128,13.188-127.128s61.028,0,61.028,0h-69.819l1.099,54.712h67.587"/>
+                </g>
+                <g>
+                    <defs>
+                        <path id="o2" d="M650.734,86.012c0,24.194-4.078,42.039-12.231,53.541c-8.155,11.502-20.549,17.254-37.179,17.254
+                            c-16.633,0-29.025-5.752-37.179-17.254c-8.156-11.502-12.231-29.347-12.231-53.541c0-23.758,4.104-41.334,12.313-52.73
+                            c8.206-11.393,20.573-17.091,37.098-17.091s28.89,5.698,37.098,17.091C646.629,44.677,650.734,62.254,650.734,86.012z
+                            M610.721,46.97c-2.486-2.159-5.617-3.24-9.396-3.24c-3.781,0-6.885,1.053-9.315,3.159c-2.43,2.106-4.239,5.293-5.427,9.558
+                            c-1.189,4.268-1.972,8.642-2.349,13.122c-0.38,4.483-0.567,10.019-0.567,16.604c0,6.698,0.188,12.313,0.567,16.849
+                            c0.377,4.536,1.134,8.966,2.268,13.284c1.135,4.32,2.941,7.561,5.428,9.72c2.482,2.161,5.614,3.24,9.396,3.24
+                            c3.779,0,6.885-1.054,9.315-3.159c2.43-2.105,4.237-5.291,5.427-9.559c1.187-4.265,1.969-8.639,2.349-13.121
+                            c0.377-4.48,0.567-10.017,0.567-16.605c0-6.695-0.19-12.312-0.567-16.848c-0.38-4.536-1.134-8.963-2.268-13.284
+                            C615.014,52.372,613.203,49.132,610.721,46.97z"/>
+                    </defs>
+                    <clipPath id="o2_1_">
+                        <use xlink:href="#o2"  overflow="visible"/>
+                    </clipPath>
+                    <path id="o2-path" clip-path="url(#o2_1_)" class="intro_ani" fill="none" stroke="#6DAFD5" stroke-width="39" d="M601.324,28.792
+                        c0,0-31.725-2.198-31.725,49.451s15.098,67.033,31.725,68.132s33.111-2.198,33.111-69.231
+                        C634.436,26.398,601.324,28.792,601.324,28.792z"/>
+                </g>
+                <g>
+                    <defs>
+                        <path id="l" d="M695.445,121.328c0,1.297,0.215,2.135,0.647,2.512c0.431,0.379,1.402,0.566,2.916,0.566h51.354v29.646h-70.794
+                            c-6.156,0-10.611-1.162-13.365-3.483c-2.754-2.323-4.131-6.022-4.131-11.097V18.944h33.372V121.328z"/>
+                    </defs>
+                    <clipPath id="l_1_">
+                        <use xlink:href="#l"  overflow="visible"/>
+                    </clipPath>
+                    <polyline id="l-path" clip-path="url(#l_1_)" class="intro_ani" fill="none" stroke="#6DAFD5" stroke-width="39" points="677.289,18.944 
+                        677.289,140.88 750.363,140.88 	"/>
+                </g>
+                <g>
+                    <defs>
+                        <path id="i" d="M764.941,140.282V18.944h34.506v121.338c0,4.86-1.81,8.64-5.427,11.341c-3.62,2.697-7.562,4.049-11.826,4.049
+                            c-4.268,0-8.209-1.352-11.826-4.049C766.748,148.922,764.941,145.143,764.941,140.282z"/>
+                    </defs>
+                    <clipPath id="i_1_">
+                        <use xlink:href="#i"  overflow="visible"/>
+                    </clipPath>
+                    
+                        <line id="i-path" clip-path="url(#i_1_)" class="intro_ani" fill="none" stroke="#6DAFD5" stroke-width="39" x1="782.194" y1="18.944" x2="782.194" y2="161.745"/>
+                </g>
+                <g>
+                    <defs>
+                        <path id="o3" d="M912.846,86.012c0,24.194-4.078,42.039-12.231,53.541c-8.155,11.502-20.549,17.254-37.179,17.254
+                            c-16.633,0-29.025-5.752-37.179-17.254c-8.156-11.502-12.231-29.347-12.231-53.541c0-23.758,4.104-41.334,12.313-52.73
+                            c8.206-11.393,20.573-17.091,37.098-17.091s28.89,5.698,37.098,17.091C908.74,44.677,912.846,62.254,912.846,86.012z
+                            M872.832,46.97c-2.486-2.159-5.617-3.24-9.396-3.24c-3.781,0-6.885,1.053-9.315,3.159c-2.43,2.106-4.239,5.293-5.427,9.558
+                            c-1.189,4.268-1.972,8.642-2.349,13.122c-0.38,4.483-0.567,10.019-0.567,16.604c0,6.698,0.188,12.313,0.567,16.849
+                            c0.377,4.536,1.134,8.966,2.268,13.284c1.135,4.32,2.941,7.561,5.428,9.72c2.482,2.161,5.614,3.24,9.396,3.24
+                            c3.779,0,6.885-1.054,9.315-3.159c2.43-2.105,4.237-5.291,5.427-9.559c1.187-4.265,1.969-8.639,2.349-13.121
+                            c0.377-4.48,0.567-10.017,0.567-16.605c0-6.695-0.19-12.312-0.567-16.848c-0.38-4.536-1.134-8.963-2.268-13.284
+                            C877.125,52.372,875.314,49.132,872.832,46.97z"/>
+                    </defs>
+                    <clipPath id="o3_1_">
+                        <use xlink:href="#o3"  overflow="visible"/>
+                    </clipPath>
+                    <path id="o3-path" clip-path="url(#o3_1_)" class="intro_ani" fill="none" stroke="#6DAFD5" stroke-width="39" d="M863.436,28.774
+                        c0,0-32.301,4.457-32.301,51.138s6.73,66.61,32.301,66.61s33.634-30.874,33.634-66.61
+                        C897.069,44.176,877.055,30.954,863.436,28.774z"/>
+                </g>
+                </svg>
+
+
+                
+            </div>
+                <div class="sns_list">
+                    <ul>
+                        <li>
+                            <img src="img/e.png" alt="이메일">
+                            <p>mankdy1@naver.com</p>
+                        </li>
+                        <li>
+                            <img src="img/in.png" alt="인스타그램">
+                            <p>@kd_0604_</p>
+                        </li>
+                    </ul>
+                </div>
+        </section>
+        <section class="section profile">
+            <h1>Profile</h1>
+            <div class="box">
+                <div class="photo">
+                    <img src="img/photo.jpg" alt="내사진">
+                </div>
+                <div class="license">
+                    <h2>Career</h2>
+                    <p>
+                        2017 ~ 2018 버거킹, 햄버거 제조<br>
+                        2018 ~ 2019 탐앤탐스, 커피 제조<br>
+                    </p>
+                </div>
+                <div class="work">
+                    <p><span>Name : </span>김 덕</p>
+                    <p><span>Birth : </span>1997.06.04</p>
+                    <p><span>Addr : </span>인천 미추홀구 용현동</p>
+                    <p><span>Email : </span>mankdy1@naver.com</p>
+                </div>
+                <div class="skill">
+                    <h2>Skill</h2>
+                    <div class="container-skillbar">
+                        <div class="skillbar clearfix " data-percent="70%">
+                            <div class="skillbar-title" style="background: #DD1E2F;"><span>HTML5</span></div>
+                            <div class="skillbar-bar" style="background: #DD1E2F;"></div>
+                            <div class="skill-bar-percent">70%</div>
+                        </div> <!-- Ende Skill Bar -->
+                    
+                        <div class="skillbar clearfix " data-percent="70%">
+                            <div class="skillbar-title" style="background: #EBB035;"><span>CSS3</span></div>
+                            <div class="skillbar-bar" style="background: #EBB035;"></div>
+                            <div class="skill-bar-percent">65%</div>
+                        </div> <!-- Ende Skill Bar -->
+                    
+                        <div class="skillbar clearfix " data-percent="60%">
+                            <div class="skillbar-title" style="background: #06A2CB;"><span>jQuery</span></div>
+                            <div class="skillbar-bar" style="background: #06A2CB;"></div>
+                            <div class="skill-bar-percent">50%</div>
+                        </div> <!-- Ende Skill Bar -->
+                    
+                        <div class="skillbar clearfix " data-percent="85%">
+                            <div class="skillbar-title" style="background: #218559;"><span>Photoshop</span></div>
+                            <div class="skillbar-bar" style="background: #218559;"></div>
+                            <div class="skill-bar-percent">85%</div>
+                        </div> <!-- Ende Skill Bar -->
+                    
+                        <div class="skillbar clearfix " data-percent="85%">
+                            <div class="skillbar-title" style="background: #D0C6B1;"><span>illustrator</span></div>
+                            <div class="skillbar-bar" style="background: #D0C6B1;"></div>
+                            <div class="skill-bar-percent">85%</div>
+                        </div> <!-- Ende Skill Bar -->
+                    </div><!-- Ende container Skill Bar -->
+                </div>
+            </div>
+        </section>
+        <section class="section web">
+            <h1>Web Portfolio</h1>
+                    <!-- swiper 스라이드 -->
+            <div class="box">
+                    <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="slide_img">
+                            <!-- 목업 이미지 -->
+                            <img src="img/ev.png" alt="이브자리">
+
+                        </div>
+                        <div class="slide_des">
+                            <!-- 포트폴리오 설명 -->
+                            <div class="number">
+                                <p><b>01</b>02</p>
+                            </div>
+                            <h2>이브자리 리뉴얼</h2>
+                            <p>
+                                <span>벤치마킹 : </span>지산리조트<br>
+                                <span>기기지원 : </span>PC버전<br>
+                                <span>사용 Skill : </span>HTML5 + CSS3 + jQuery<br>
+                                <span>사용 Plugin : </span>swiper slide<br>
+                                <span>제작 기간 : </span>7일<br>
+                                <span>컨텐츠 설명 : </span>메인비주얼은 아코디언으로 제작하여 표현하였고,<br>
+                                swiper slide플러그인을 사용하여 다양한 형태의 슬라이드를 제작하였습니다.
+                            </p>
+                            <div class="slide_btn">
+                                <a href="https://brand.evezary.co.kr/" target="_blank">Original</a>
+                                <a href="https://kd11123.github.io/evezary/" target="_blank">Renewal</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide_img">
+                            <!-- 목업 이미지 -->
+                            <img src="img/paris.png" alt="파리바게뜨">
+
+                        </div>
+                        <div class="slide_des">
+                            <div class="number">
+                                <p><b>02</b>02</p>
+                            </div>
+                            <!-- 포트폴리오 설명 -->
+                            <h2>파리바게뜨 리뉴얼</h2>
+                            <p>
+                                <span>벤치마킹 : </span>오늘레스토랑<br>
+                                <span>기기지원 : </span>PC버전<br>
+                                <span>사용 Skill : </span>HTML5 + CSS3 + jQuery + bootstrap<br>
+                                <span>사용 Plugin : </span>swiper slide<br>
+                                <span>제작 기간 : </span>14일<br>
+                                <span>컨텐츠 설명 : </span>화면 스크롤 시에 콘텐츠가 서서히 나타나는 애니메이션 구현, 구글지도 삽입
+                            </p>
+                            <div class="slide_btn">
+                                <a href="https://www.paris.co.kr/" target="_blank">Original</a>
+                                <a href="https://kd11123.github.io/PB/" target="_blank">Renewal</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="swiper-slide">
+                        <div class="slide_img"> -->
+                            <!-- 목업 이미지 -->
+                            <!-- <img src="" alt="알라딘">
+
+                        </div>
+                        <div class="slide_des">
+                            <div class="number">
+                                <p><b>03</b>03</p>
+                            </div> -->
+                            <!-- 포트폴리오 설명 -->
+                            <!-- <h2>이브자리 리뉴얼</h2>
+                            <p>
+                                <span>벤치마킹 : </span>포스코 오앤엠<br>
+                                <span>기기지원 : </span>모바일 웹<br>
+                                <span>사용 Skill : </span>HTML5 + CSS3 + jQuery<br>
+                                <span>사용 Plugin : </span>swiper slide<br>
+                                <span>제작 기간 : </span>7일<br>
+                                <span>컨텐츠 설명 : </span>모바일 웹앱으로 구현하였고,<br>
+                                세로 아코디언 형태로 내비게이션을 제작
+                            </p>
+                            <div class="slide_btn">
+                                <a href="https://jejubeer.co.kr/" target="_blank">Original</a>
+                                <a href="#"  onclick="window.open('http://doong98.dothome.co.kr/res/', '_blank', 'width=400 height=1000,location=no,menubar=no,status=no,toolbar=no')">Mobile</a>
+                            </div>
+                        </div> -->
+                    <!-- </div> -->
+            </div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div> <!-- swiper wrapper -->
+            </div>
+        </section>
+        <section class="section edit">
+            <h1>Edit Portfolio</h1>
+            <div class="box">
+                <!-- 썸네일 세로로 나열하기 오른쪽에 큰 이미지 -->
+                <div class="gallery">
+                    <div class="thum_img">
+                        <ul>
+                            <li><a href="#">
+                                <img src="img/thum1.jpg" alt="커피패키지">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/thum2.jpg" alt="포스터">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/thum3.jpg" alt="명함">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/thum4.jpg" alt="북커버">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/thum5.jpg" alt="리플렛">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/thum6.jpg" alt="인물그림">
+                            </a></li>
+                        </ul>
+                    </div>
+                    <div class="big_img">
+                        <ul>
+                            <li><a href="#">
+                                <img src="img/big1.jpg" alt="상품배너">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/big2.jpg" alt="포스터">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/big3.jpg" alt="명함">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/big4.jpg" alt="북커버">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/big5.jpg" alt="리플렛">
+                            </a></li>
+                            <li><a href="#">
+                                <img src="img/big6.jpg" alt="인물그림">
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="section contact">
+            <div class="box">
+                <h1>Contact Me</h1>
+                <div class="contact_wrap">
+                    <div class="contact_img">
+                        <!-- 이미지 영역 -->
+                        <img src="img/cel.png" alt="클로바">
+                    </div>
+                
+                <form class="gform" data-email="kd12388@gmail.com" method="POST" action="https://script.google.com/macros/s/AKfycbxyHuCXGmLXzR4QuiyfOOraxfXzZmBFiSPsU70q/exec">
+                <div class="form-elements">
+                    <fieldset class="pure-group">
+                      <label for="name">이&nbsp;&nbsp;&nbsp;&nbsp;름 : </label>
+                      <input id="name" name="name" placeholder="이름을 입력해 주세요." />
+                    </fieldset>
+              
+                    <fieldset class="pure-group">
+                        <label for="title">제&nbsp;&nbsp;&nbsp;&nbsp;목 : </label>
+                        <textarea id="title" name="title" rows="1"
+                        placeholder="제목을 입력해 주세요."></textarea>
+                      </fieldset>
+
+                      <fieldset class="pure-group">
+                        <label for="message">내&nbsp;&nbsp;&nbsp;&nbsp;용 : </label>
+                        <textarea id="message" name="message" rows="10"
+                        placeholder="내용을 작성해 주세요."></textarea>
+                      </fieldset>
+              
+                    <fieldset class="pure-group">
+                      <label for="email">이메일 : </label>
+                      <input id="email" name="email" type="email" value=""
+                      required placeholder="당신의 이메일 주소를 입력해 주세요."/>
+                    </fieldset>
+              
+                    <button class="button-success pure-button button-xlarge">
+                      <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+                  </div>
+              
+                  <!-- Customise the Thankyou Message People See when they submit the form: -->
+                  <div class="thankyou_message" style="display:none;">
+                    <h2>메일이 정상적으로 전송되었습니다. 감사합니다.</h2>
+                  </div>  
+                </form>
+            </div>
+            </div>
+
+        </section>
+    </div>
+    <footer>
+        ⓒ Deok by 2022.
+    </footer>
+     <!-- Submit the Form to Google Using "AJAX" -->
+    <script data-cfasync="false" src="js/form-submission-handler.js"></script>
+</body>
+</html>
